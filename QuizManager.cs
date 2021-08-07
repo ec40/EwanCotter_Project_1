@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -12,13 +12,16 @@ public class QuizManager : MonoBehaviour
     private int lifeRemaining = 5;
 
     public Animator Damagetaken;
-
+    
+    //Start game
     public void StartGame(int index)
     {
         currentTimer = timeLimit;
         lifeRemaining = 5;
  
     }
+    
+    //Game timer
     private void Update()
     {
 
@@ -28,20 +31,21 @@ public class QuizManager : MonoBehaviour
             SetTimer(currentTimer);
         }
     }
-
+       //Play Damage animation
     void damageAnim()
     {
         Damagetaken.Play("Damage taken");
     }
 
-   
+   //Animate timer
     private void SetTimer(float value)
     {
         TimeSpan time = TimeSpan.FromSeconds(value);
         quizUI.TimerText.text = "Time:" + time.ToString("mm':'ss");
 
     }
-
+    
+    //Incorrect answer processing
     public void Answer(bool correct)
     {
 
