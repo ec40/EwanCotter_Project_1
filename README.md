@@ -23,18 +23,21 @@ also including writings from professionals in the areas of game design and devel
 <br />
 <br />As part of this project, evaluations were performed on the original brain training program and at each prototyping phase. 
 <br />Evaluations were gathered in the form of surveys and interviews with a total of 30 participants. 
-<br />Each prototype evaluation directly contributed to the next design phase as is consistent with most development models. 
+<br />Each prototype evaluation directly contributed to the next design phase as is consistent with most development models.
 
 -------------
 **Development**
 <br />In order to make the brain training program more engaging the team and I decided to convert the program into a role playing game,
 in which the user would fight waves of enemies by selecting the correct attack to counter the enemies' attack, losing health if incorrect.
 <br />The questions would be constructed in a way similar to the original program, converting the more mundane questions
-xx
-<br />Into dynamic enemy interactions
-xx
+![image](https://user-images.githubusercontent.com/76906306/128596719-51d0f395-3a5f-4741-859a-925f152b886d.png)
+<br />Into dynamic enemy interactions<br />
+![image](https://user-images.githubusercontent.com/76906306/128596736-204ed305-f3d4-4394-b04e-28cd3d06328d.png)
 <br />The prototype design software used in this project was Picolo(prototype 1) and the Unity game engine(prototype 2, 3). 
-<br />Original art was also created using the graphic design software Krita, art work for 16 counter attacks, 8 backgrounds and 36 enemy variants were created for the final two prototypes while Prototype 1 had very basic artwork. <br />
+<br />Original art was also created using the graphic design software Krita, art work for 16 counter attacks, 8 backgrounds and 36 enemy variants were created for the final two prototypes<br/>
+![image](https://user-images.githubusercontent.com/76906306/128596865-724beef9-e1e2-46d0-94c7-590709dfba48.png)
+ <br/>while Prototype 1 had very basic artwork.<br/>![image](https://user-images.githubusercontent.com/76906306/128596928-7630e808-6dee-432d-92d4-ea265baaf396.png)
+ <br />
 <br />**Prototype 1** was developed in order to convey the basic idea of the game to our testers, it had virtually no animations and was essentially
 an online substitute for what would have been a paper prototype before COVID. 
 <br />**Prototype 2 and 3** were created as more high fidelity prototype versions of P1, incorporating the preffered aspects from our user evaluations.
