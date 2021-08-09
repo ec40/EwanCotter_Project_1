@@ -44,7 +44,7 @@ an online substitute for what would have been a paper prototype before COVID.
 P2 had limited animation and no sound while P3 added sound and animations for multiple aspects of gameplay including enemy death and player damage.<br />
 <br />
 The Unity game engine is very powerful and does not require as much convetional programming as some other game creation packages that were considered. 
-Before the project both developers had limited experience with C# but became quite adept towards the end of the process. 
+Before the project both developers had limited experience with C#, Unity and digital Art creation but became quite adept towards the end of the process. 
 
 
 
