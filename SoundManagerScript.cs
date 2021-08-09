@@ -1,4 +1,7 @@
-﻿using System.Collections;
+//This file handled the sound that was created for the player inputs
+//Essentially playing an 'oof' sound for incorrect and a 'ding' for correct
+//Also plays a crowd applauding when a whole scene is completed
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +11,6 @@ public class SoundManagerScript : MonoBehaviour
     public static AudioClip damageTakenSound, levelProgressionSound, questionRightSound;
     static AudioSource audioSrc;
 
-    // Start is called before the first frame update
     void Start()
     {
         damageTakenSound = Resources.Load<AudioClip>("oof");
@@ -19,12 +21,7 @@ public class SoundManagerScript : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    //Called after a play input
     public static void PlaySound (string clip)
     {
         switch (clip) {
