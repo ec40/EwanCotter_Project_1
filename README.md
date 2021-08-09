@@ -46,5 +46,19 @@ P2 had limited animation and no sound while P3 added sound and animations for mu
 The Unity game engine is very powerful and does not require as much convetional programming as some other game creation packages that were considered. 
 Before the project both developers had limited experience with C#, Unity and digital Art creation but became quite adept towards the end of the process. 
 
+---------
+**Content**<br />
+The game consists of a brief tutorial and three enemy stages; the cave, the forest and the castle. Each stage represents the indroduction of major game mechanics, thus increasing the difficulty as the player progresses. <br />
+The player is presented with a series of scenarios where an enemy is attacking and there is a 'correct' counter move, however, environmental such as weather or light level conditions change what the actual correct answer would be. <br />
+After answering the player moves on to the next enemy, taking damage for a wrong answer or killing the enemy otherwise<br />
+During these interactions the player must use and develop relational reasoning skills to progress without dying. Relational reasoning being the basis for the original brain training program. 
+
+<br /><br />
+Each section(cave, forest, castle) came in the form of separate scenes in Unity, which meant only one is loaded at once. 
+<br />Enemy interactions were in the form of a stack of panels, which contained the content such as enemy sprites, question text and answer sprites. which could be 'activated' and 'deactivated' when needed.<br />
+Essentially, the player moved through this stack of interactions with one panel activated at once and deactivate when completed.<br />
+To detect the player input, an invisible panel was placed on top of the stack with mouse-click listeners.<br />
+This removing the need to program listeners for each indiviual enemy interaction and instead generate an array with the button index(0,1 or 2) of each correct answer, then checking if the player selected this button. 
+
 
 
