@@ -1,3 +1,6 @@
+//This file is responsible for the animation and sound that plays when the player is damaged 
+//and initialising the in-game timer
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +14,7 @@ public class QuizManager : MonoBehaviour
     private float currentTimer;
     private int lifeRemaining = 5;
 
+    //Animator object
     public Animator Damagetaken;
     
     //Start game
@@ -31,7 +35,7 @@ public class QuizManager : MonoBehaviour
             SetTimer(currentTimer);
         }
     }
-       //Play Damage animation
+    //Play Damage animation
     void damageAnim()
     {
         Damagetaken.Play("Damage taken");
