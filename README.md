@@ -1,24 +1,24 @@
 # EwanCotter_Project_1 - Creative redesign of SMART brain training program
 
-The included C# code was created for the Unity game engine as part of a final year group project for Psychology and Comptuing. 
+The included C# code was created for the Unity game engine as part of a final year group project for Psychology and Computing. 
 <br />
 <br />The goal of the project was to creatively redesign an existing brain training program as to make it more engaging for the users. 
 <br />Included is part of the final prototype(out of three), where each prototype was reviewed and reported on with test users. 
 <br />The old program was found to be too repetitive, not visually stimulating and generally boring to interact with,
-while the final prototype reported a sifgnificant improvement in these areas. 
+while the final prototype reported a significant improvement in these areas. 
 
 -------------
 **My role**<br />
 I was a developer for this project, working directly with the design and development of each prototype. 
-<br />Developers of the program would be resposible for implemeneting ideas and feedback from our testers, which would be gathered by the UX researchers of the group(who were responsible for user research)
+<br />Developers of the program would be responsible for implementing ideas and feedback from our testers, which would be gathered by the UX researchers of the group(who were responsible for user research)
 <br />I was also tasked with creating all the digital art that would be created for this project and played a large role the ideation of the project.
-Each team member would also be resposible for their own academic research, which would influence some design decisions throughout and some considerations made in the final report.
+Each team member would also be responsible for their own academic research, which would influence some design decisions throughout and some considerations made in the final report.
 
 
 --------------
 **Research**
 <br />Extensive research was performed prior and during the project, citing upwards of 30+ academic papers in the final report. 
-<br />The areas of research included many different academic diciplines including Psychology, Human Computer Interaction and Human centered computing
+<br />The areas of research included many different academic disciplines including Psychology, Human Computer Interaction and Human centred computing
 also including writings from professionals in the areas of game design and development. 
 <br />
 <br />As part of this project, evaluations were performed on the original brain training program and at each prototyping phase. 
@@ -40,15 +40,15 @@ in which the user would fight waves of enemies by selecting the correct attack t
  <br />
 <br />**Prototype 1** was developed in order to convey the basic idea of the game to our testers, it had virtually no animations and was essentially
 an online substitute for what would have been a paper prototype before COVID. 
-<br />**Prototype 2 and 3** were created as more high fidelity prototype versions of P1, incorporating the preffered aspects from our user evaluations.
+<br />**Prototype 2 and 3** were created as more high fidelity prototype versions of P1, incorporating the preferred aspects from our user evaluations.
 P2 had limited animation and no sound while P3 added sound and animations for multiple aspects of gameplay including enemy death and player damage.<br />
 <br />
-The Unity game engine is very powerful and does not require as much convetional programming as some other game creation packages that were considered. 
+The Unity game engine is very powerful and does not require as much conventional programming as some other game creation packages that were considered. 
 Before the project both developers had limited experience with C#, Unity and digital Art creation but became quite adept towards the end of the process. 
 
 ---------
 **Content**<br />
-The game consists of a brief tutorial and three enemy stages; the cave, the forest and the castle. Each stage represents the indroduction of major game mechanics, thus increasing the difficulty as the player progresses. <br />
+The game consists of a brief tutorial and three enemy stages; the cave, the forest and the castle. Each stage represents the introduction of major game mechanics, thus increasing the difficulty as the player progresses. <br />
 The player is presented with a series of scenarios where an enemy is attacking and there is a 'correct' counter move, however, environmental such as weather or light level conditions change what the actual correct answer would be. <br />
 After answering the player moves on to the next enemy, taking damage for a wrong answer or killing the enemy otherwise<br />
 During these interactions the player must use and develop relational reasoning skills to progress without dying. Relational reasoning being the basis for the original brain training program. 
